@@ -43,7 +43,7 @@ if st.button("Generate Reply", type="primary"):
 
                 # Select Gemini model
                 model = genai.GenerativeModel(
-                    "gemini-3.0-flash"
+                    "gemini-1.5-flash"
                 )
 
                 # Create prompt
