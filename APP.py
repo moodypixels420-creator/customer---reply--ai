@@ -34,7 +34,7 @@ review = st.text_area(
 if st.button("Generate Reply", type="primary"):
 
 
-    elif not review.strip():
+    if not review.strip():
         st.warning("Please enter a customer review first.")
 
     else:
