@@ -14,8 +14,8 @@ st.set_page_config(
 )
 
 # Application heading
-st.title("💬 Customer Review Reply Generator")
-
+st.title("💬 Smart Review Generator")
+st.image("Logo.png", width=200)
 st.write(
     "Paste a customer review below and let AI "
     "generate a polite and professional response."
